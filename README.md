@@ -13,12 +13,30 @@ Este Projeto foi desenvolvido para fins acadêmicos através do evento Next Leve
 <div>
   <a href="https://www.sqlite.org/index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg" height="50px" width="150px"></a>
 </div>
+<div>
+  <a href="http://knexjs.org/"><img src="https://knexjs.org/assets/images/knex.png" height="50px" width="150px"></a>
+</div>
 
 ## Getting Started
 
 ### Install
 ```sh
 npm install
+```
+
+### Migration CLI
+
+#### Install Dependencies
+```sh
+npm install knex -g
+```
+
+#### Update Database
+```sh
+npm run knex:migrate
+```
+```sh
+npm run knex:seed
 ```
 
 ### Development
